@@ -1,0 +1,66 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+/* start page */
+@import url('../blocks/body/body.css');
+@import url('../blocks/page/page.css');
+/* end page */
+
+/* start header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__lang-links/header__lang-links.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_selected/header__lang-link_selected.css');
+/* end header */
+
+/* start lead */
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+/* end lead */
+
+/* start intro */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro__text.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-text/intro__list-text.css');
+@import url('../blocks/intro/__list-number/intro__list-number.css');
+
+/* end intro */
+
+/* start photo-grid */
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__container/photo-grid__container.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
+/* end photo-grid */
+
+/* start places */
+@import url('../blocks/places/places.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/card/__link-heading/card__link-heading.css');
+@import url('../blocks/card/__links/card__links.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__link/card__link.css');
+@import url('../blocks/card/__main-text/card__main-text.css');
+@import url('../blocks/card/__text/card__text.css');
+/* end places  */
+
+/* start cover */
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__image/cover__image.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+/* end cover */
+
+/* start footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__author/footer__author.css');
+/* end footer */
