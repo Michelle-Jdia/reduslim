@@ -20,6 +20,9 @@
   -ms-transition: opacity ease-in 0.2s;
   -o-transition: all ease-in 0.2s;
 }
+.header__btn-submit_disabled {
+  background-color: #031309;
+}
 .header__btn:hover {
   opacity: 0.8;
 }
