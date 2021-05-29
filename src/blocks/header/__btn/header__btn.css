@@ -18,10 +18,14 @@
   -webkit-transition: opacity ease-in 0.2s;
   -moz-transition: opacity ease-in 0.2s;
   -ms-transition: opacity ease-in 0.2s;
-  -o-transition: opacity ease-in 0.2s;
+  -o-transition: all ease-in 0.2s;
 }
 .header__btn:hover {
   opacity: 0.8;
+}
+.header__btn:active {
+  opacity: 0.9;
+  background-color: #24613d;
 }
 @media all and (max-width: 662px) {
   .header__btn {
