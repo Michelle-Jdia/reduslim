@@ -1,5 +1,6 @@
 .header__btn {
   width: 100%;
+  width: 320px;
   height: 42px;
   background-color: #428a60;
   border-radius: 5px;
@@ -21,4 +22,10 @@
 }
 .header__btn:hover {
   opacity: 0.8;
+}
+@media all and (max-width: 662px) {
+  .header__btn {
+    width: 280px;
+    font-size: 14px;
+  }
 }

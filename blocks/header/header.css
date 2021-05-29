@@ -12,5 +12,6 @@
 @media all and (max-width: 662px) {
   .header {
     flex-direction: column;
+    margin: 59px auto;
   }
 }

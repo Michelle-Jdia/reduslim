@@ -74,15 +74,16 @@
 }
 @media all and (max-width: 662px) {
   .header__left-container {
+    max-width: 320px;
+    max-height: 311px;
     background-color: #ffffff;
   }
   .header__left-container::before {
-    width: 202px;
-    height: 202px;
+    max-width: 202px;
+    max-height: 202px;
     left: 50%;
     margin-left: -101px;
-    top: 50%;
-    margin-top: -101px;
+    top: 72px;
   }
   .header__left-container::after {
     display: none;

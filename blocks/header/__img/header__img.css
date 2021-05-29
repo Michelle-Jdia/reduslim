@@ -30,9 +30,9 @@
   .header__img {
     width: 223px;
     height: 122px;
+    bottom: unset;
+    top: 120px;
     left: 50%;
-    bottom: 50%;
-    margin-bottom: -61px;
     margin-left: -111.5px;
   }
 }

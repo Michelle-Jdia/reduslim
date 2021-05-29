@@ -16,3 +16,8 @@
     margin: 17px auto 25px;
   }
 }
+@media all and (max-width: 662px) {
+  .header__form {
+    width: 280px;
+  }
+}

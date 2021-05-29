@@ -26,3 +26,11 @@
     background-position-x: 47px;
   }
 }
+@media all and (max-width: 662px) {
+  .header__selecter {
+    background-position-y: 15px;
+    background-position-x: 40px;
+    width: 96.18px;
+    height: 50px;
+  }
+}

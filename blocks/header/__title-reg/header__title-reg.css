@@ -19,3 +19,9 @@
     margin: 10px auto;
   }
 }
+@media all and (max-width: 662px) {
+  .header__title-reg {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+}
