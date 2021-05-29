@@ -1,8 +1,13 @@
 .body {
   font-family: "Montserrat";
   font-weight: 700;
-  background-color: #F4F4F4;
-  margin: 0 auto;
+  background-color: #f4f4f4;
+  margin: 75px auto;
   min-width: 320px;
   max-width: 1280px;
+}
+@media all and (max-width: 662px) {
+  .body {
+    margin: 60px auto;
+  }
 }

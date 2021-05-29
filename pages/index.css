@@ -24,3 +24,8 @@
 @import url("../blocks/header/__selecter/header__selecter.css");
 @import url("../blocks/header/__btn/header__btn.css");
 /* end header */
+
+/* start footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__subtitle/footer__subtitle.css");
+@import url("../blocks/footer/__lock/footer__lock.css");
