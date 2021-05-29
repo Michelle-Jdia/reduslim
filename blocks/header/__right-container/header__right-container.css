@@ -3,3 +3,15 @@
   height: 500px;
   background-color: #ffffff;
 }
+@media all and (max-width: 1060px) {
+  .header__right-container {
+    max-width: 460px;
+    max-height: 400px;
+  }
+}
+@media all and (max-width: 920px) {
+  .header__right-container {
+    max-width: 340px;
+    max-height: 280px;
+  }
+}

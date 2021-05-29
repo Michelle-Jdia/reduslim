@@ -8,3 +8,15 @@
     -ms-border-radius:0 30px 0 0;
     -o-border-radius:0 30px 0 0;
 }
+@media all and (max-width: 662px) {
+    .header__title-reg-container {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #Ffffff;
+}
+  }

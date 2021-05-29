@@ -5,3 +5,9 @@
   font-weight: 700;
   margin: 40px 0 0 40px;
 }
+@media all and (max-width: 662px) {
+  .header__title {
+    margin: 40px 0 0 20px;
+    color: #212121;
+  }
+}

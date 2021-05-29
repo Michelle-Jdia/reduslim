@@ -21,16 +21,24 @@
                 <h2 class="header__title-reg">Сделай шаг к выздоровлению</h2>
             </div>
             <form action="" class="header__form">
-                <p class="header__form-title">Ваше</p>
-                <p class="header__form-title header__form-title_color_green">имя</p>
-                <input type="text" class="header__input-text">
-                <p class="header__form-title">Ваше</p>
-                <p class="header__form-title header__form-title_color_green">имя</p>
-                <input type="number" class="header__input-number">
-                <select name="" id="">
-                    <option value="RU">RU</option>
-                </select>
-                <button class="header__btn">Заказать &rarr;</button>
+                <div class="header__name-container">
+                    <p class="header__form-title">Ваше
+                        <span class="header__form-title header__form-title_color_green">имя</span>
+                    </p>
+
+                    <input type="text" class="header__input-text" placeholder="Алексей">
+                </div>
+                <div class="header__phone-container">
+                    <p class="header__form-title">Ваш
+                        <span class="header__form-title header__form-title_color_green">телефон</span>
+                    </p>
+
+                    <input type="tel" class="header__input-number" placeholder="+7 (123) 456 78-90">
+                    <select class="header__selecter" name="" id="">
+                        <option value="RU">RU</option>
+                    </select>
+                </div>
+                <button class="header__btn">Заказать &#10142;</button>
             </form>
         </div>
     </header>

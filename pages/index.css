@@ -12,6 +12,8 @@
 @import url("../blocks/header/__img/header__img.css");
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__span/header__span.css");
+@import url("../blocks/header/__name-container/header__name-container.css");
+@import url("../blocks/header/__phone-container/header__phone-container.css");
 @import url("../blocks/header/__title-reg-container/header__title-reg-container.css");
 @import url("../blocks/header/__title-reg/header__title-reg.css");
 @import url("../blocks/header/__form-title/header__form-title.css");
@@ -19,6 +21,6 @@
 @import url("../blocks/header/__form/header__form.css");
 @import url("../blocks/header/__input-number/header__input-number.css");
 @import url("../blocks/header/__input-text/header__input-text.css");
+@import url("../blocks/header/__selecter/header__selecter.css");
 @import url("../blocks/header/__btn/header__btn.css");
-
 /* end header */

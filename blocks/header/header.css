@@ -4,3 +4,13 @@
   align-items: center;
   margin: 75px auto;
 }
+@media all and (max-width: 1060px) {
+  .header {
+    margin: 60px auto;
+  }
+}
+@media all and (max-width: 662px) {
+  .header {
+    flex-direction: column;
+  }
+}

@@ -5,5 +5,34 @@
   position: absolute;
   left: 57px;
   bottom: 33px;
-  background-image: url('../../../image/header-img.svg');
+  background-image: url("../../../image/header-img.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media all and (max-width: 1060px) {
+  .header__img {
+    width: 400px;
+    height: 205px;
+    left: 57px;
+    bottom: 40px;
+  }
+}
+@media all and (max-width: 920px) {
+  .header__img {
+    width: 310px;
+    height: 125px;
+    left: 20px;
+    bottom: 40px;
+  }
+}
+@media all and (max-width: 662px) {
+  .header__img {
+    width: 223px;
+    height: 122px;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: -61px;
+    margin-left: -111.5px;
+  }
 }

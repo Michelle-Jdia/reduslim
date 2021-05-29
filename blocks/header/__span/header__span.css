@@ -1,5 +1,5 @@
 .header__span {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 130%;
   text-transform: uppercase;
@@ -7,4 +7,15 @@
   position: absolute;
   left: 40px;
   bottom: 33px;
+}
+
+@media all and (max-width: 662px) {
+  .header__span  {
+    left: unset;
+    bottom: unset;
+    top: 40px;
+    right: 20px;
+    font-size: 18px;
+    color: #212121;
+  }
 }

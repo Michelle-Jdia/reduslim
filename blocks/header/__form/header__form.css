@@ -1,6 +1,18 @@
 .header__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin: 52px auto 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 325px;
+}
+@media all and (max-width: 1060px) {
+  .header__form {
+    margin: 37px auto 45px;
+  }
+}
+@media all and (max-width: 920px) {
+  .header__form {
+    margin: 17px auto 25px;
+  }
 }
