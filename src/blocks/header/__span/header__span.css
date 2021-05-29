@@ -11,7 +11,9 @@
 
 @media all and (max-width: 662px) {
   .header__span  {
+    left: auto;
     left: unset;
+    bottom: auto;
     bottom: unset;
     top: 40px;
     right: 20px;
