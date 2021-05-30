@@ -1,0 +1,30 @@
+.header__input-number {
+  width: 184px;
+  height: 50px;
+  background-color: #f8f8f8;
+  border: 1px solid #E4E4E4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #212121;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+  padding: 14px 0 14px 20px;
+  margin: 0 20px 38px 0;
+}
+.header__input-number::placeholder {
+  opacity: 0.2;
+}
+
+@media all and (max-width: 1060px) {
+  .header__input-number {
+    margin: 0 5px 15px 0;
+  }
+}
+@media all and (max-width: 662px) {
+  .header__input-number {
+    width: 174px;
+    margin: 0 10px 28px 0;
+  }
+}
