@@ -1,8 +1,8 @@
 .header__input-error {
   position: absolute;
-  font-size: 13px;
+  font-size: 9.5px;
   left: 1px;
-  bottom: 5px;
+  bottom: -1px;
   color: #ff0000;
   transition: all ease 0.1s;
   -webkit-transition: all ease 0.1s;
@@ -13,8 +13,8 @@
 .header__phone-container:nth-of-type(2) .header__input-error {
   bottom: 25px;
 }
-@media all and (max-width: 1060px) {
+@media all and (max-width: 662px) {
   .header__phone-container:nth-of-type(2) .header__input-error {
-    bottom: 3px;
+    bottom: 10px;
   }
 }

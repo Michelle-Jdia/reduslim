@@ -20,7 +20,7 @@
             <div class="header__title-reg-container">
                 <h2 class="header__title-reg">Сделай шаг к выздоровлению</h2>
             </div>
-            <form action="#" class="header__form" method="post" name="form" required>
+            <form action="#" class="header__form" method="post" name="form" required novalidate>
                 <div class="header__name-container">
                     <p class="header__form-title">Ваше
                         <span class="header__form-title header__form-title_color_green">имя</span>
@@ -28,7 +28,7 @@
 
                     <input type="text" name="name" class="header__input header__input-text" minlength="2" maxlength="30"
                         placeholder="Алексей" id="input-name" value="" required>
-                    <span class="header__input-error" id="input-name-error">xcvcxvcxv</span>
+                    <span class="header__input-error" id="input-name-error"></span>
                 </div>
                 <div class="header__phone-container">
                     <p class="header__form-title">Ваш
@@ -36,7 +36,7 @@
                     </p>
 
                     <input type="tel" class="header__input header__input-number" id="input-phone" value="" name="phone"
-                        placeholder="+7 (123) 456 78-90" required>
+                        placeholder="+7 (123) 456 78-90" pattern="^[0-9-+\s()]*$" required>
 
 
                     <!-- dropdown using select and option -->
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                     </div>
-                    <span class="header__input-error" id="input-phone-error">cxvcxvcxv</span>
+                    <span class="header__input-error" id="input-phone-error"></span>
                 </div>
 
                 <button class="header__btn">Заказать &#10142;</button>
