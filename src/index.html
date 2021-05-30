@@ -34,9 +34,26 @@
                     </p>
 
                     <input type="tel" class="header__input-number" placeholder="+7 (123) 456 78-90" required>
-                    <select class="header__selecter" name="" id="">
+                    <!-- dropdown using select and option -->
+
+                    <!-- <select class="header__selecter" name="" id="">
                         <option class="header__option" value="RU">RU</option>
-                    </select>
+                    </select> -->
+
+                    <!-- here custom dropdown -->
+                    <div class="header__custom-select-wrapper">
+                        <div class="header__custom-select">
+                            <div class="header__custom-select-trigger"><span>RU <div class="select-img"></div></span>
+                                <div class="header__arrow"></div>
+                            </div>
+                            <div class="header__custom-options">
+                                <span class="header__custom-option selected" data-value="RU">RU <div class="select-img"></div></span>
+                                <span class="header__custom-option" data-value="EN">EN <div class="select-img-en"></div></span>
+                                <span class="header__custom-option" data-value="UK">FR <div class="select-img-fr"></div></span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <button class="header__btn">Заказать &#10142;</button>
             </form>
