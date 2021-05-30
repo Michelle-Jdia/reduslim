@@ -23,6 +23,8 @@
 @import url("../blocks/header/__input-text/header__input-text.css");
 @import url("../blocks/header/__selecter/header__selecter.css");
 @import url("../blocks/header/__btn/header__btn.css");
+@import url("../blocks/header/__input-error/header__input-error.css");
+@import url("../blocks/header/__input-error/_visible/header__error_visible.css");
 /* end header */
 
 /* start footer */
