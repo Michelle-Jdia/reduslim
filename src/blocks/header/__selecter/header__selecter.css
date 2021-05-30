@@ -70,7 +70,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 22px;
+  padding: 0 20px;
   font-size: 14px;
   font-weight: 600;
   color: #212121;
@@ -95,7 +95,8 @@
 }
 .select-img {
   background-image: url("../../../image/flag-rus.jpg");
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 26.18px;
   height: 18px;
@@ -105,25 +106,9 @@
 }
 .select-img-en {
   background-image: url("../../../image/united-states.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 26.18px;
-  height: 18px;
-  position: absolute;
-  top: 15px;
-  right: 35px;
 }
 .select-img-fr {
   background-image: url("../../../image/france.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 26.18px;
-  height: 18px;
-  position: absolute;
-  top: 15px;
-  right: 35px;
 }
 .header__custom-select.open .header__custom-options {
   opacity: 1;
@@ -133,7 +118,7 @@
 .header__custom-option {
   position: relative;
   display: block;
-  padding: 0 22px;
+  padding: 0 20px;
   font-size: 14px;
   font-weight: 600;
   color: #212121;
@@ -182,4 +167,18 @@
 .open .header__arrow::after {
   left: 5px;
   transform: rotate(45deg);
+}
+@media all and (max-width: 662px) {
+  .header__custom-select-wrapper {
+    width: 96.18px;
+  }
+  .select-img {
+    right: 29px;
+  }
+  .header__custom-select-trigger {
+    padding: 0 10px;
+  }
+  .header__custom-option {
+    padding: 0 10px;
+  }
 }

@@ -18,6 +18,7 @@
 }
 @media all and (max-width: 662px) {
   .header__form {
-    width: 280px;
+    width: 320px;
+    max-width: 90%;
   }
 }

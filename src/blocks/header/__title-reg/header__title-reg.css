@@ -15,12 +15,14 @@
 }
 @media all and (max-width: 920px) {
   .header__title-reg {
+    max-width: 320px;
     font-size: 18px;
     margin: 10px auto;
   }
 }
 @media all and (max-width: 662px) {
   .header__title-reg {
+    max-width: 300px;
     font-size: 30px;
     margin: 0 auto;
   }
