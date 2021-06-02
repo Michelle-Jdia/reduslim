@@ -14,4 +14,4 @@
 
 
 ------
- [Ссылка на гитхаб](https://github.com/Michelle-Jdia/reduslim.git)
+ [Ссылка на гитхаб](https://michelle-jdia.github.io/reduslim/)
